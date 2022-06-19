@@ -1,0 +1,197 @@
+.{
+ margin: 0; 
+ padding: 0;  
+}
+/* .header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: ("images/bg-hero-desktop.svg","images/bg-hero-mobile.svg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+} */
+/* #text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#text::before{
+    content: "";
+    position: absolute;
+    background: url("images/bg-hero-desktop.svg") no-repeat center center/cover;
+    width: 70%;
+    height: auto;
+    z index=-1;
+} */
+.back-img{
+    height: 100vh;
+    position: relative;
+    background: url('images/bg-hero-desktop.svg')
+
+}
+.header{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.main{
+
+
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-img{
+    width: 150px;
+
+}
+.nav-link{
+    list-style: none;
+    display: inline-block;
+    padding: ;
+    position: relative;
+}
+.inside-text{
+  width: 550px;  
+}
+
+.illustrate{
+        height: auto;
+        width: 430px;
+
+}
+.inside{
+    width: 1130%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media(max-width: 700px){
+    ,inside-text{
+        font-size: 20px;
+    }
+}
+.grow{
+    width: 100%;
+    padding: 100px 100px 50px 100px;
+
+}
+
+.growing{
+    width: 1130%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.growing-text{
+    width: 550px; 
+}
+
+.growing-img{
+    height: auto;
+    width: 430px;
+}
+
+.flow{
+    width: 100%;
+    padding: 100px 100px 50px 100px;
+}
+
+.flowing{
+    width: 1130%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.flowing-text{
+    width: 550px;
+}
+
+.flowing-img{
+    height: auto;
+    width: 430px;
+}
+
+.user{
+    width: 100%;
+    padding: 100px 100px 50px 100px;
+}
+
+.using{
+    width: 1130%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.using-text{
+    width: 550px;
+}
+
+.using-img{
+    height: auto;
+    width: 430px;
+}
+
+/* .ready{
+    width: 20%;
+    margin: 100px auto;
+    padding: 100px 0px;
+    display: contents;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+} */
+.readying{
+    width: 20%;
+    margin: 100px auto;
+    padding: 100px 0px;
+    display: contents;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.ready h1{
+    
+}
+
+.ready button{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
