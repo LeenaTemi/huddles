@@ -27,12 +27,16 @@
 .back-img{
     height: 100vh;
     position: relative;
-    background: url('images/bg-hero-desktop.svg')
-
+    background: url('images/bg-hero-desktop.svg');
+    background-color: hsl(193, 100%, 96%);
+    overflow: hidden;
 }
 .header{
-    width: 100%;
+    width: fit-content;
     padding: 100px 0px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .main{
@@ -57,12 +61,21 @@ nav{
     position: relative;
 }
 .inside-text{
-  width: 550px;  
+  width: 550px;
+  padding-left: 100px;  
 }
-
+.inside-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+}
+.inside-text p{
+font-family: 'Open Sans', sans-serif;
+}
 .illustrate{
-        height: auto;
-        width: 430px;
+        height: auto; 
+        width: 50px;
+        padding-right: 1000px;
 
 }
 .inside{
@@ -78,10 +91,26 @@ nav{
     ,inside-text{
         font-size: 20px;
     }
+
+
+.second{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 }
 .grow{
     width: 100%;
     padding: 100px 100px 50px 100px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
 
 }
 
@@ -97,10 +126,17 @@ nav{
 .growing-text{
     width: 550px; 
 }
-
+.growing-text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.growing-text p{
+    font-family: 'Open Sans', sans-serif;
+}
 .growing-img{
     height: auto;
     width: 430px;
+    padding-right: 1000px;
 }
 
 .flow{
@@ -122,9 +158,17 @@ nav{
     width: 550px;
 }
 
+.flowing-text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.flowing-text p{
+    font-family: 'Open Sans', sans-serif;
+}
 .flowing-img{
     height: auto;
     width: 430px;
+    padding-right:700px ;
 }
 
 .user{
@@ -145,10 +189,17 @@ nav{
 .using-text{
     width: 550px;
 }
-
+.using-text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+.using-text p{
+    font-family: 'Open Sans', sans-serif;
+}
 .using-img{
     height: auto;
     width: 430px;
+    padding-right: 700px;
 }
 
 /* .ready{
