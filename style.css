@@ -1,156 +1,121 @@
-.{
+body{
  margin: 0; 
  padding: 0;  
 }
-/* .header{
-    min-height: 100vh;
+ .header{
+    height: 70vh;
     width: 100%;
-    background-image: ("images/bg-hero-desktop.svg","images/bg-hero-mobile.svg");
+    background-image: url("images/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
     background-position: center;
     background-size: cover;
     position: relative;
-} */
-/* #text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#text::before{
-    content: "";
-    position: absolute;
-    background: url("images/bg-hero-desktop.svg") no-repeat center center/cover;
-    width: 70%;
-    height: auto;
-    z index=-1;
-} */
-.back-img{
-    height: 100vh;
-    position: relative;
-    background: url('images/bg-hero-desktop.svg');
-    background-color: hsl(193, 100%, 96%);
-    overflow: hidden;
-}
-.header{
-    width: fit-content;
-    padding: 100px 0px;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .main{
-
+    padding-top: 5px;
 
 }
 
 nav{
     display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
-.nav-img{
-    width: 150px;
+.logo{
+
+}
+.logo img{
+    cursor: pointer;
+    padding-top: 50px;
+    padding-left: 50px;
+
 
 }
 .nav-link{
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-    position: relative;
-    border-radius: 5cm;
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 40px;
+    
+}
+.inside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .inside-text{
-  width: 550px;
-  padding-left: 100px;  
+   padding-left: 100px;
+   padding-bottom: 100px;
 }
 .inside-text h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 800;
 }
 .inside-text p{
 font-family: 'Open Sans', sans-serif;
-font-size: 10px;
+font-size: 20px;
+border: 10px;
+}
+.inside-text button{
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    padding: 15px 25px;
+    border-radius: 50px;
 }
 .illustrate{
-        height: auto; 
-        width: 50px;
-        padding-right: 1000px;
-
+    height: 400px;
+    width: 900px;
+    padding-left: 300px;
+    padding-bottom: 100px;
 }
-@media(max-width: 1440px){
+
+.illustrate img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* @media screen and (max-width: 1440px){
     .inside-text h1{
         font-size: 25px;}
 }
 
-@media(max-width: 375px){
+@media screen and (max-width: 375px){
     .inside-text h1{
-        font-size: 18px;}
-}
+        font-size: 18px;} */
 
-
-
-.inside{
-    width: 1130%;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-@media(max-width: 1440px){
-    .illustrate{
-     width: 1035; 
-     height: 739;  
-    }
-}
-@media(max-width: 900px){
-    .illustrate{
-     width: 500; 
-     height: 300;  
-    }
-}
-@media(max-width: 375px){
-    .illustrate{
-     width: 350; 
-     height: 150;  
-    }
-}
 
 .second{
-    width: fit-content;
+    width: 100%;
+    height: 250vh;
     display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin-top: 5%;
-    border-radius: 10px;
-    margin-bottom: 5%;
     box-sizing: border-box;
-    overflow: hidden;
-}
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 20px;
+    padding-bottom: 400px;
+} 
 .grow{
-    width: 100%;
-    padding: 100px 100px 50px 100px;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    box-sizing: border-box;
+    padding-bottom: 20px;
 
 }
 
 .growing{
-    width: 1130%;
-    max-width: 95%;
-    margin: 0 auto;
+    width: 100%;
+    height: 50vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: blue;
+    flex: 50%;
+    border-radius: 30px;
 }
 
 .growing-text{
-    width: 550px; 
+    padding-left: 100px;
 }
 .growing-text h3{
     font-family: 'Poppins', sans-serif;
@@ -159,30 +124,35 @@ font-size: 10px;
 .growing-text p{
     font-family: 'Open Sans', sans-serif;
 }
-.growing-img{
-    height: auto;
-    width: 430px;
-    padding-right: 1000px;
+.growin{
+    height: 300px;
+    width: 950px;
+    padding-left: 400px;
+}
+.growin img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .flow{
-    width: 100%;
-    padding: 100px 100px 50px 100px;
+    padding-top: 20px;
 }
 
 .flowing{
-    width: 1130%;
-    max-width: 95%;
-    margin: 0 auto;
+    width: 100%;
+    height: 50vh;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: red;
+    flex: 50%;
+    border-radius: 30px;
 
 }
 
 .flowing-text{
-    width: 550px;
-}
+    padding-left: 100px;
+}  
 
 .flowing-text h3{
     font-family: 'Poppins', sans-serif;
@@ -191,29 +161,34 @@ font-size: 10px;
 .flowing-text p{
     font-family: 'Open Sans', sans-serif;
 }
-.flowing-img{
-    height: auto;
-    width: 430px;
-    padding-right:700px ;
+.flowin{
+    height: 300px;
+    width: 950px;
+    padding-left: 400px;
+}
+.flowin img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .user{
-    width: 100%;
-    padding: 100px 100px 50px 100px;
+    
 }
 
 .using{
-    width: 1130%;
-    max-width: 95%;
-    margin: 0 auto;
+    width: 100%;
+    height: 50vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    background-color: aliceblue;
+    flex: 50%;
+    border-radius: 30px;
+    padding: 20px;
 }
 
 .using-text{
-    width: 550px;
+    padding-left: 100px;
 }
 .using-text h3{
     font-family: 'Poppins', sans-serif;
@@ -222,31 +197,22 @@ font-size: 10px;
 .using-text p{
     font-family: 'Open Sans', sans-serif;
 }
-.using-img{
-    height: auto;
-    width: 430px;
-    padding-right: 700px;
-}
+.usin{
+    height: 300px;
+    width: 950px;
+    padding-left: 400px;
 
-/* .ready{
-    width: 20%;
-    margin: 100px auto;
-    padding: 100px 0px;
-    display: contents;
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 0;
-} */
+}
+.usin img{
+    max-width: 100%;
+    max-height: 100%;
+} 
+
+ .ready{
+    
+} 
 .readying{
-    width: 20%;
-    margin: 100px auto;
-    padding: 100px 0px;
-    display: contents;
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 0;
+    
 }
 
 .ready h1{
